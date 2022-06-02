@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure Hunt Game - Project</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="Keywords" content="Treasure, Hunt, Game, Generation, Team3">
+  <meta name="Description" content="Salesforce Developer Programme Project - Team 3">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <!--Add header info in here-->
+    <div class="center">
+      <h1>Welcome to the Treasure Hunt Game</h1>
+
+      <h2>(Project - from Team Avengers)</h2>
+    </div>
+  </header>
+
+  <!--Main function-->
+  <main>
+    <div>
+      <form>
+        <label for="level">Choose a difficulty level:</label>
+        <select name="level" id="level">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+          <option value="extreme">Extreme</option>
+        </select>
+        <br><br>
+        <input type="button" value="Start New Game" id='start' />
+        <input type="button" value="User Guide" id='guides' />
+      </form>
+
+
+    </div>
+
+  </main>
+  <div class='wrap'>
+
+    <canvas width=600 height=600 id='canvas'></canvas>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
